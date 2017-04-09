@@ -14,7 +14,7 @@ public class Ex4Test {
     public void setUp() { this.ex = new Ex4(); }
 
     @Test
-    public void verifyNumbers() {
+    public void listOddNumbers() {
         List<Integer> expectedOddNumbers = new ArrayList<>();
 
         for(int i=1; i<=50; i++) {

@@ -13,7 +13,7 @@ public class Ex2Test {
     public void setUp() { this.ex = new Ex2(); }
 
     @Test
-    public void verifyNumbers() {
+    public void listNumbers() {
         int[] expected = IntStream.rangeClosed(1,20).toArray();
         assertArrayEquals(expected, this.ex.listNumbers());
     }

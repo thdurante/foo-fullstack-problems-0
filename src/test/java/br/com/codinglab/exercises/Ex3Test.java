@@ -15,7 +15,7 @@ public class Ex3Test {
     public void setUp() { this.ex = new Ex3(); }
 
     @Test
-    public void verifyNumbers() {
+    public void listSquareNumbers() {
         int[] numbers = IntStream.rangeClosed(1,20).toArray();
         List<Integer> expectedSquareNumbers = new ArrayList<>();
 
